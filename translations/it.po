@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tiling Shell\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-20 13:21+0200\n"
-"PO-Revision-Date: 2024-10-22 12:39+0200\n"
-"Last-Translator: Domenico Ferraro <ferraro.domenico125@gmail.com>\n"
+"POT-Creation-Date: 2025-09-20 16:40+0200\n"
+"PO-Revision-Date: 2025-09-14 12:39+0200\n"
+"Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -264,10 +264,10 @@ msgid "Quarter tiling activation area"
 msgstr "Area di attivazione della divisione in quarti"
 
 #: dist/prefs.js:1027
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Activation area to trigger quarter tiling (%% of the screen)"
 msgstr ""
-"Area di attivazione per attivare la divisione in quarti (% dello schermo)"
+"Area di attivazione per attivare la divisione in quarti (%% dello schermo)"
 
 #: dist/prefs.js:1043
 msgid "Edge tiling offset"
@@ -520,15 +520,13 @@ msgid "Focus the window prior to the current focused window"
 msgstr "Seleziona la finestra precedente alla finestra attualmente selezionata"
 
 #: dist/prefs.js:1379
-#, fuzzy
 msgid "Highlight focused window"
-msgstr "Sgancia la finestra selezionata"
+msgstr "Evidenzia la finestra focalizzata"
 
 #: dist/prefs.js:1381
-#, fuzzy
 msgid "Minimize all the other windows and show only the focused window"
 msgstr ""
-"Usa i tasti di scelta rapida per eseguire azioni sulla finestra selezionata"
+"Riduci a icona tutte le altre finestre e mostra solo la finestra focalizzata"
 
 #: dist/prefs.js:1388
 #, fuzzy
@@ -635,29 +633,29 @@ msgstr "Nuova scorciatoia"
 
 #: dist/prefs.js:1892
 msgid "Use Backspace to clear"
-msgstr ""
-
-#: dist/extension.js:5980
-msgid "Edit Layouts"
-msgstr "Modifica layouts"
+msgstr "Usa Backspace per eliminare"
 
 #: dist/extension.js:5990
+msgid "Edit Layouts"
+msgstr "Modifica layout"
+
+#: dist/extension.js:6000
 msgid "New Layout"
 msgstr "Nuovo layout"
 
-#: dist/extension.js:6175
+#: dist/extension.js:6185
 msgid "to split a tile"
 msgstr "per dividere un riquadro"
 
-#: dist/extension.js:6214
+#: dist/extension.js:6224
 msgid "to split a tile vertically"
 msgstr "per dividere un riquadro verticalmente"
 
-#: dist/extension.js:6234
+#: dist/extension.js:6244
 msgid "to delete a tile"
 msgstr "per cancellare un riquadro"
 
-#: dist/extension.js:6258
+#: dist/extension.js:6268
 msgid "use the indicator button to save or cancel"
 msgstr "usa l'icona sul pannello superiore per salvare o annullare"
 
@@ -667,9 +665,8 @@ msgstr "usa l'icona sul pannello superiore per salvare o annullare"
 #~ msgid "Info"
 #~ msgstr "Info"
 
-#, fuzzy
 #~ msgid "Select the layout to edit"
-#~ msgstr "Apre l'editor dei layouts"
+#~ msgstr "Seleziona il layout da modificare"
 
 #~ msgid "Close"
 #~ msgstr "Chiudi"
@@ -680,14 +677,11 @@ msgstr "usa l'icona sul pannello superiore per salvare o annullare"
 #~ msgid "Start editing"
 #~ msgstr "Inizia la modifica"
 
-#, fuzzy
 #~ msgid "Move to best tile"
-#~ msgstr "Sposta la finestra nel riquadro sinistro"
+#~ msgstr "Sposta nel riquadro migliore"
 
-#, fuzzy
 #~ msgid "Move to leftmost tile"
-#~ msgstr "Sposta la finestra nel riquadro sinistro"
+#~ msgstr "Sposta nel riquadro più a sinistra"
 
-#, fuzzy
 #~ msgid "Move to rightmost tile"
-#~ msgstr "Sposta la finestra nel riquadro destro"
+#~ msgstr "Sposta nel riquadro più a destra"
