@@ -128,6 +128,8 @@ export default class Settings {
     static KEY_ENABLE_SCREEN_EDGES_WINDOWS_SUGGESTIONS =
         'enable-screen-edges-windows-suggestions';
     static KEY_EDGE_SNAP_MODE = 'edge-snap-mode';
+    static KEY_ENABLE_MULTI_TILE_WINDOW_SUGGESTIONS =
+        'enable-multi-tile-window-suggestions';
 
     static SETTING_MOVE_WINDOW_RIGHT = 'move-window-right';
     static SETTING_MOVE_WINDOW_LEFT = 'move-window-left';
@@ -485,6 +487,14 @@ export default class Settings {
 
     static set EDGE_SNAP_MODE(val: EdgeSnapMode) {
         set_string(Settings.KEY_EDGE_SNAP_MODE, val);
+    }
+
+    static get ENABLE_MULTI_TILE_WINDOW_SUGGESTIONS(): boolean {
+        return get_boolean(Settings.KEY_ENABLE_MULTI_TILE_WINDOW_SUGGESTIONS);
+    }
+
+    static set ENABLE_MULTI_TILE_WINDOW_SUGGESTIONS(val: boolean) {
+        set_boolean(Settings.KEY_ENABLE_MULTI_TILE_WINDOW_SUGGESTIONS, val);
     }
 
     static get_inner_gaps(scaleFactor: number = 1): {
